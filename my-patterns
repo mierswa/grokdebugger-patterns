@@ -3,3 +3,4 @@ DOUBLEQOUTE "
 WGLOGGERSTATES (roamed|connected|disconnected)
 STATUS_WORD [\w-]*
 DNSDATE %{MONTHDAY}-%{MONTH}-%{YEAR}%{SPACE}%{TIME}
+RADIUSAUTH (Login incorrect|Login OK)
